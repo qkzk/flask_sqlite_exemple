@@ -1,0 +1,8 @@
+<h1>Hello</h1>
+<div>
+	<ul>
+		{% for ligne in personnes %}
+			<li>{{ ligne.format() }}</li>
+		{% endfor %}
+	</ul>
+</div>
